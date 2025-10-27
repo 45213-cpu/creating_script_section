@@ -1,0 +1,69 @@
+      .box {
+            position: relative;
+            animation: geeks 1s infinite;
+            animation-play-state: paused;
+        height: 80px;
+        font-size: 80px;
+      
+        }
+          
+        .box2 {
+            position: relative;
+            animation: geeks2 3s infinite;
+            animation-play-state: paused;
+        height: 180px;
+        font-size: 175px;
+      
+        }
+
+        @keyframes geeks {
+           0% {
+                left: 0px;
+                 background: red;
+             color:yellow;
+             top:0px;
+                
+            }
+            100% {
+                left: 500px;
+              background: green;
+                 color:orange;
+              top: 100px;
+            }
+        }
+
+        @keyframes geeks2 {
+           0% {
+                left: 0px;
+                 background: rgb(103, 103, 175);
+             color:white;
+             top:0px;
+             border-radius: 30%;
+            }
+            100% {
+                left: 500px;
+              background: rgb(153, 77, 153);
+                 color:pink;
+              top: 100px;
+              border-radius: 0%;
+              font-weight: bold;
+            }
+        }
+
+  .box.horizTranslate {
+            animation-play-state: running;
+        }
+          
+    .box2.horizTranslate2 {
+            animation-play-state: running;
+        }
+
+/* makes it so it starts and stops when you hover over the div */
+
+   .box:hover {
+            animation-play-state: running;
+        }
+
+    .box2:hover {
+            animation-play-state: running;
+        }
