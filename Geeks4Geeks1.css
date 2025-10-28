@@ -40,6 +40,14 @@
              top:0px;
              border-radius: 30%;
             }
+            25% {
+                left: 100px;
+              background: rgb(153, 77, 153);
+                 color:pink;
+              top: 100px;
+              border-radius: 0%;
+              font-weight: bold;
+            }
             100% {
                 left: 500px;
               background: rgb(153, 77, 153);

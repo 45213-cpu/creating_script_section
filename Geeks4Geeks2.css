@@ -73,6 +73,15 @@
                   border-radius: 100%;
             
             }
+             75% {
+                left: 300px;
+              background: orange;
+              top:40px;
+                /* transform: translateX(250px); */
+               width: 250px;
+               padding: 10%;
+                  border-radius: 30%;
+             }
               100% {
                 left: 500px;
              top:80px;

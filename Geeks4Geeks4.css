@@ -141,14 +141,36 @@
                width: 80px;
   height: 80px;
             
-          
+  
           }
-           35% {
+           25% {
+                    margin-left: 180px;
+             margin-top: -20px;
+                 width: 80px;
+  height: 80px;        
+
+
+          }
+           30% {
                     margin-left: 190px;
              margin-top: -20px;
                  width: 80px;
   height: 80px;
+
+          }
+           35% {
+                    margin-left: 210px;
+             margin-top: -20px;
+                 width: 80px;
+  height: 80px;
              
+  
+          }
+           60% {
+                    margin-left: 165px;
+             margin-top: -20px;
+                 width: 80px;
+  height: 80px;
                
           }
               100% {
