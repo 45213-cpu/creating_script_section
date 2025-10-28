@@ -45,7 +45,10 @@
             position: relative;
             animation: geeks2 5s infinite;
             animation-play-state: paused;
-        height: 200px;
+            animation-direction: alternate;
+        height: 500px;
+        padding: 20%;
+        width: 300px;
         font-size: 40px;
          text-align: center;
         }
@@ -54,6 +57,7 @@
            0% {
                 left: 0px;
              top:0px;
+             /* transform: translateX(0); */
               width: 500px;
                  background: pink;
              border-radius: 0%;
@@ -64,20 +68,20 @@
                 left: 250px;
               background: orange;
               top:40px;
+                /* transform: translateX(250px); */
                width: 250px;
-                  border-radius: 50%;
+                  border-radius: 100%;
             
             }
               100% {
                 left: 500px;
              top:80px;
+                /* transform: translateX(500px); */
                  width: 500px;
                  background: pink;
-             border-radius: 0%;
-                
-            }
+             border-radius: 50%;
         }
-
+    }
   .box2.horizTranslate2 {
             animation-play-state: running;
         }
