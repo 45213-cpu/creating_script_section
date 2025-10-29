@@ -75,7 +75,7 @@
             }
              75% {
                 left: 300px;
-              background: orange;
+              background: rgb(255, 213, 135);
               top:40px;
                 /* transform: translateX(250px); */
                width: 250px;
@@ -87,7 +87,7 @@
              top:80px;
                 /* transform: translateX(500px); */
                  width: 500px;
-                 background: pink;
+                 background: rgb(255, 107, 132);
              border-radius: 50%;
         }
     }
