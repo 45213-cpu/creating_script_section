@@ -7,7 +7,7 @@
       
         }
           
-        .box2 {
+        .geekbox {
             position: relative;
             animation: geeks2 3s infinite;
             animation-play-state: paused;
@@ -42,7 +42,7 @@
             }
             25% {
                 left: 100px;
-              background: rgb(153, 77, 153);
+              background: rgb(216, 116, 216);
                  color:pink;
               top: 100px;
               border-radius: 0%;

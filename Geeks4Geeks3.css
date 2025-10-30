@@ -51,7 +51,7 @@
 
         /* For Second Box */
 
-      .box2 {
+      .geekbox {
             position: relative;
             animation: geeks2 5s 5;
             animation-play-state: paused;
